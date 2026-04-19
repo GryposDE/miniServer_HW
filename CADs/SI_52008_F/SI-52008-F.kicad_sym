@@ -1,0 +1,301 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "SI-52008-F" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at -12.7 19.05 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "SI-52008-F" (id 1) (at -12.7 -24.13 0)
+      (effects (font (size 1.27 1.27)) (justify top left))
+    )
+    (property "Footprint" "SI-52008-F:BEL_SI-52008-F" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "C" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "13.97mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Bel Fuse" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "SI-52008-F_0_0"
+      (polyline
+        (pts (xy -10.16 -6.096) (xy -10.16 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -10.16 -7.62) (xy -10.16 -9.144)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -10.16 -9.144) (xy -7.62 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.62 -7.62) (xy -10.16 -6.096)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.62 -6.096) (xy -7.62 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.62 -7.62) (xy -7.62 -9.144)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -10.16 -7.62) (xy -12.7 -7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -6.604 -3.556) (xy -8.382 -5.588)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -6.9342 -4.5212) (xy -7.493 -4.0386)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.493 -4.0386) (xy -6.604 -3.556)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -6.604 -3.556) (xy -6.9342 -4.5212)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -6.9342 -4.5212) (xy -6.9088 -3.7846)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -6.9088 -3.7846) (xy -7.0358 -3.7846)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.3152 -4.1148) (xy -7.0866 -3.9624)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.8486 -3.4544) (xy -9.6266 -5.4864)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -8.1788 -4.4196) (xy -8.7376 -3.937)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -8.7376 -3.937) (xy -7.8486 -3.4544)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.8486 -3.4544) (xy -8.1788 -4.4196)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -8.1788 -4.4196) (xy -8.1534 -3.683)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -8.1534 -3.683) (xy -8.2804 -3.683)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -8.5598 -4.0132) (xy -8.3312 -3.8608)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -12.7 -12.7) (xy -5.08 -12.7)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 -12.7) (xy -5.08 -7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 -7.62) (xy -7.62 -7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 -6.096) (xy 7.62 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 7.62 -7.62) (xy 7.62 -9.144)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 7.62 -9.144) (xy 10.16 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 10.16 -7.62) (xy 7.62 -6.096)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 10.16 -6.096) (xy 10.16 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 10.16 -7.62) (xy 10.16 -9.144)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 11.176 -3.556) (xy 9.398 -5.588)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 10.8458 -4.5212) (xy 10.287 -4.0386)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 10.287 -4.0386) (xy 11.176 -3.556)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 11.176 -3.556) (xy 10.8458 -4.5212)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 10.8458 -4.5212) (xy 10.8712 -3.7846)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 10.8712 -3.7846) (xy 10.7442 -3.7846)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 10.4648 -4.1148) (xy 10.6934 -3.9624)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 9.9314 -3.4544) (xy 8.1534 -5.4864)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 9.6012 -4.4196) (xy 9.0424 -3.937)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 9.0424 -3.937) (xy 9.9314 -3.4544)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 9.9314 -3.4544) (xy 9.6012 -4.4196)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 9.6012 -4.4196) (xy 9.6266 -3.683)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 9.6266 -3.683) (xy 9.4996 -3.683)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 9.2202 -4.0132) (xy 9.4488 -3.8608)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 12.7 -7.62) (xy 10.16 -7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 -7.62) (xy 5.08 -7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 5.08 -12.7) (xy 12.7 -12.7)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 5.08 -12.7) (xy 5.08 -7.62)) (stroke (width 0.1524))
+      )
+      (text "GRN" (at -6.35 -6.35 0)
+        (effects (font (size 1.016 1.016)) (justify bottom left))
+      )
+      (text "YEL" (at 6.35 -6.35 0)
+        (effects (font (size 1.016 1.016)) (justify bottom right))
+      )
+      (rectangle (start -12.7 -22.86) (end 12.7 17.78)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -17.78 15.24 0) (length 5.08)
+        (name "TD+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -17.78 -12.7 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G_K"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -17.78 -7.62 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G_A"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -17.78 12.7 0) (length 5.08)
+        (name "TD-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -17.78 7.62 0) (length 5.08)
+        (name "RD+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -17.78 5.08 0) (length 5.08)
+        (name "RD-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 17.78 15.24 180.0) (length 5.08)
+        (name "VC+_P8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 17.78 12.7 180.0) (length 5.08)
+        (name "VC-_P9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 17.78 7.62 180.0) (length 5.08)
+        (name "VC+_P10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 17.78 5.08 180.0) (length 5.08)
+        (name "VC-_P11"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -17.78 0.0 0) (length 5.08)
+        (name "COMMON_CT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 17.78 -7.62 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "Y_K"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 17.78 -12.7 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "Y_A"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -17.78 -17.78 0) (length 5.08)
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SH1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -17.78 -20.32 0) (length 5.08)
+        (name "SHIELD__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SH2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SI_52008_F")(type "KiCad")(uri "${KIPRJMOD}/CADs/SI_52008_F/SI-52008-F.kicad_sym")(options "")(descr ""))
+)

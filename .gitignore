@@ -1,0 +1,7 @@
+**/*backups/
+**/fp-info-cache
+*.lck
+**/*.zip
+output
+*.lck
+#auto_saved_files#
