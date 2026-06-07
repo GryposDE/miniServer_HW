@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "SI_52008_F")(type "KiCad")(uri "${KIPRJMOD}/CADs/SI_52008_F/SI-52008-F.kicad_sym")(options "")(descr ""))
   (lib (name "MURATA_MYBSP00502ABF")(type "KiCad")(uri "${KIPRJMOD}/CADs/MYBSP00502ABF/MURATA_MYBSP00502ABF.kicad_sym")(options "")(descr ""))
+  (lib (name "MSD-4-A")(type "KiCad")(uri "${KIPRJMOD}/CADs/MSD_4_A/MSD-4-A.kicad_sym")(options "")(descr ""))
 )

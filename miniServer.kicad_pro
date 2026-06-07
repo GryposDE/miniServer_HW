@@ -625,6 +625,10 @@
     [
       "5ffa423e-bf19-4bb0-947b-4e60d995962a",
       "SDMMC"
+    ],
+    [
+      "ec964968-5315-4565-a4eb-3fc67a233645",
+      "Power"
     ]
   ],
   "text_variables": {}

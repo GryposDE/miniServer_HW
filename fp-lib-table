@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "SI_52008_F")(type "KiCad")(uri "${KIPRJMOD}/CADs/SI_52008_F")(options "")(descr ""))
   (lib (name "MYBSP00502ABF")(type "KiCad")(uri "${KIPRJMOD}/CADs/MYBSP00502ABF")(options "")(descr ""))
+  (lib (name "MSD_4_A")(type "KiCad")(uri "${KIPRJMOD}/CADs/MSD_4_A")(options "")(descr ""))
 )
