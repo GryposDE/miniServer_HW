@@ -3647,16 +3647,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 101.6) (xy 76.2 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ee01992-b7da-4271-93e4-0a5842d8911e")
-	)
-	(wire
-		(pts
 			(xy 114.3 82.55) (xy 119.38 82.55)
 		)
 		(stroke
@@ -3835,7 +3825,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 101.6) (xy 66.04 101.6)
+			(xy 63.5 101.6) (xy 76.2 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7905,75 +7895,6 @@
 			(project "miniServer"
 				(path "/2f7e2d6e-7ac1-4ae5-be0e-a6d141d8b943/5bc2eac8-7f57-4126-99be-333aeb01e149"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 69.85 101.6 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63a7a48e-2c62-40e5-b2bd-ee3c99547457")
-		(property "Reference" "R24"
-			(at 69.85 105.918 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "33R"
-			(at 69.85 103.886 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 69.85 103.378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 69.85 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dba848b9-78ef-4fa3-8956-981a06ebb422")
-		)
-		(pin "2"
-			(uuid "1eb8805c-9f43-48b0-8d91-5cbce2cee0df")
-		)
-		(instances
-			(project "miniServer"
-				(path "/2f7e2d6e-7ac1-4ae5-be0e-a6d141d8b943/5bc2eac8-7f57-4126-99be-333aeb01e149"
-					(reference "R24")
 					(unit 1)
 				)
 			)
