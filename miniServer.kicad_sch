@@ -4257,10 +4257,10 @@
 		)
 		(uuid "170ff2c8-1052-495c-bebb-362e9cdb94f4")
 	)
-	(text_box "only two CAPs are required\n(see application note p.8)"
+	(text_box "We use the internal LDO, but not the SMPS.\n(see application note p.6)"
 		(exclude_from_sim no)
-		(at 181.61 130.81 0)
-		(size 29.21 6.35)
+		(at 181.61 129.54 0)
+		(size 29.21 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -4274,6 +4274,7 @@
 				(size 1.27 1.27)
 			)
 			(justify left top)
+			(href "https://www.st.com/resource/en/application_note/an5419-getting-started-with-stm32h723733-stm32h725735-and-stm32h730-mcu-hardware-development-stmicroelectronics.pdf")
 		)
 		(uuid "33da2eaa-86bf-4939-9c25-607d295cb0b5")
 	)
@@ -4330,6 +4331,12 @@
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "38d1e0d1-4bc7-4b46-9cc0-dcd76f6264ca")
+	)
+	(junction
+		(at 199.39 151.13)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "3b9003c6-3b27-406e-8c5d-e42033ec0004")
 	)
 	(junction
 		(at 196.85 24.13)
@@ -4444,6 +4451,12 @@
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "8b92e40b-77ba-41a2-a2b4-d9414592f2b9")
+	)
+	(junction
+		(at 199.39 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95672ee5-9596-4ef3-b439-c0730a49a3a6")
 	)
 	(junction
 		(at 237.49 24.13)
@@ -5541,6 +5554,27 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 138.43) (xy 210.82 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f42eb7c-ac0f-4cd3-b9e4-7870ded529a6")
+	)
+	(wire
+		(pts
+			(xy 199.39 151.13) (xy 210.82 151.13)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "7093ad55-9cd9-47c4-9709-755b5da50171")
+	)
+	(wire
+		(pts
 			(xy 267.97 34.29) (xy 267.97 35.56)
 		)
 		(stroke
@@ -5951,6 +5985,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "a6c760ed-27ba-4ac9-92d6-edeef47e9d6a")
+	)
+	(wire
+		(pts
+			(xy 210.82 151.13) (xy 210.82 147.32)
+		)
+		(stroke
+			(width 0.3048)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "a6f95b51-d32d-4d07-9b26-82b791ce70c1")
 	)
 	(wire
 		(pts
@@ -6452,6 +6497,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "def5e82b-ca8a-4aa6-aa91-196130b713df")
+	)
+	(wire
+		(pts
+			(xy 210.82 138.43) (xy 210.82 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e201c664-8f88-4f06-887c-6d4ccc24fa84")
 	)
 	(wire
 		(pts
@@ -8882,6 +8937,75 @@
 			(project "miniServer"
 				(path "/2f7e2d6e-7ac1-4ae5-be0e-a6d141d8b943"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 210.82 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52e6fc60-828c-4b80-a77f-ef12b12afd40")
+		(property "Reference" "C28"
+			(at 212.598 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 212.598 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 210.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 210.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6718365e-0e3b-411c-91fa-6663e2c8ac35")
+		)
+		(pin "1"
+			(uuid "c5f82322-ae88-4234-a71c-0454d029a104")
+		)
+		(instances
+			(project "miniServer"
+				(path "/2f7e2d6e-7ac1-4ae5-be0e-a6d141d8b943"
+					(reference "C28")
 					(unit 1)
 				)
 			)
