@@ -10952,7 +10952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "830059539"
+		(property "Footprint" "KiCad:830059539"
 			(at 17.78 266.37 0)
 			(effects
 				(font
