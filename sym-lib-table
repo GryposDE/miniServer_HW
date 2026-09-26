@@ -5,4 +5,5 @@
   (lib (name "MSD-4-A")(type "KiCad")(uri "${KIPRJMOD}/CADs/MSD_4_A/MSD-4-A.kicad_sym")(options "")(descr ""))
   (lib (name "830059539")(type "KiCad")(uri "${KIPRJMOD}/CADs/LIB_830059539/830059539/KiCad/830059539.kicad_sym")(options "")(descr ""))
   (lib (name "0826-1X1T-GJ-F")(type "KiCad")(uri "${KIPRJMOD}/CADs/0826_1X1T_GJ_F/0826-1X1T-GJ-F.kicad_sym")(options "")(descr ""))
+  (lib (name "WE-TVS_SOT23-6L_82402305")(type "KiCad")(uri "${KIPRJMOD}/CADs/82402305/WE-TVS_SOT23-6L_82402305.kicad_sym")(options "")(descr ""))
 )

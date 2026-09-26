@@ -5,4 +5,5 @@
   (lib (name "MSD_4_A")(type "KiCad")(uri "${KIPRJMOD}/CADs/MSD_4_A")(options "")(descr ""))
   (lib (name "KiCad")(type "KiCad")(uri "${KIPRJMOD}/CADs/LIB_830059539/830059539/KiCad")(options "")(descr ""))
   (lib (name "0826_1X1T_GJ_F")(type "KiCad")(uri "${KIPRJMOD}/CADs/0826_1X1T_GJ_F")(options "")(descr ""))
+  (lib (name "82402305")(type "KiCad")(uri "${KIPRJMOD}/CADs/82402305")(options "")(descr ""))
 )

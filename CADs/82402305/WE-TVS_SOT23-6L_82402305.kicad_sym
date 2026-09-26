@@ -1,0 +1,199 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "WE-TVS_SOT23-6L_82402305" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at 0.0 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Value" "WE-TVS_SOT23-6L_82402305" (id 1) (at 0.0 -6.35 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Footprint" "WE-TVS_SOT23-6L_82402305:WE-TVS_SOT23-6L" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "WE-TVS_SOT23-6L_82402305_0_0"
+      (polyline
+        (pts (xy 2.667 3.175) (xy 2.667 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.667 1.905) (xy 3.175 1.397)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.667 3.175) (xy 2.159 3.683)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 2.54) (xy 0.0 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 0.0) (xy 0.0 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 5.08 2.54) (xy -5.08 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 5.08 -2.54) (xy -5.08 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.667 0.635) (xy 2.667 -0.635)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.667 -0.635) (xy 3.175 -1.143)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.667 0.635) (xy 2.159 1.143)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.667 -1.905) (xy 2.667 -3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.667 -3.175) (xy 3.175 -3.683)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.667 -1.905) (xy 2.159 -1.397)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.667 1.905) (xy -2.667 3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.667 3.175) (xy -3.175 3.683)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.667 1.905) (xy -2.159 1.397)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.667 -3.175) (xy -2.667 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.667 -1.905) (xy -3.175 -1.397)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.667 -3.175) (xy -2.159 -3.683)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 0.0) (xy 5.08 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 1.397 3.175)
+          (xy 2.667 2.54)
+          (xy 1.397 1.905)
+          (xy 1.397 3.175)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.397 0.635)
+          (xy 2.667 0.0)
+          (xy 1.397 -0.635)
+          (xy 1.397 0.635)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 1.397 -1.905)
+          (xy 2.667 -2.54)
+          (xy 1.397 -3.175)
+          (xy 1.397 -1.905)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -1.397 1.905)
+          (xy -2.667 2.54)
+          (xy -1.397 3.175)
+          (xy -1.397 1.905)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -1.397 -3.175)
+          (xy -2.667 -2.54)
+          (xy -1.397 -1.905)
+          (xy -1.397 -3.175)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (circle (center 0.0 2.54) (radius 0.381)
+        (stroke (width 0.0)) (fill (type none))
+      )
+      (circle (center 0.0 0.0) (radius 0.381)
+        (stroke (width 0.0)) (fill (type none))
+      )
+      (circle (center 0.0 -2.54) (radius 0.381)
+        (stroke (width 0.0)) (fill (type none))
+      )
+      (text "I/O1" (at -7.62 1.651 0)
+        (effects (font (size 0.6096 0.6096)) (justify bottom left))
+      )
+      (text "GND" (at -7.62 -0.889 0)
+        (effects (font (size 0.6096 0.6096)) (justify bottom left))
+      )
+      (text "I/O2" (at -7.62 -3.429 0)
+        (effects (font (size 0.6096 0.6096)) (justify bottom left))
+      )
+      (text "I/O5" (at 7.62 1.651 0)
+        (effects (font (size 0.6096 0.6096)) (justify bottom right))
+      )
+      (text "I/O3" (at 7.62 -3.429 0)
+        (effects (font (size 0.6096 0.6096)) (justify bottom right))
+      )
+      (text "I/O4" (at 7.62 -0.889 0)
+        (effects (font (size 0.6096 0.6096)) (justify bottom right))
+      )
+      (rectangle (start -4.064 -4.318) (end 4.064 4.318)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -7.62 -2.54 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 2.54 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 0.0 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 2.54 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 -2.54 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 0.0 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
